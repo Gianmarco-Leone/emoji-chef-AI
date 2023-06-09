@@ -36,14 +36,20 @@ p {
     margin-bottom: 16px;
 }
 
-button {
+#cook-btn {
     background-color: #1212b2;
     padding: 12px 24px;
-    color: white;
+    color: #ededed;
     font-size: 20px;
     font-weight: 700;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
+}
+
+#cook-btn:hover {
+    background-color: #ededed;
+    color: #1212b2;
 }
 
 img {
@@ -199,6 +205,7 @@ header .logo {
     background-color: #ffaafb;
     border: 2px solid #1212b2;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .hidden {
